@@ -1,4 +1,4 @@
-var app={
+dyvar app={
 
   inicio: function(){
     DIAMETRO_BOLA = 50;
@@ -156,7 +156,7 @@ var app={
 };
 
 if ('addEventListener' in document) {
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('deviceready', function() {
         app.inicio();
     }, false);
 }
